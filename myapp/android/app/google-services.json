@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "916728294033",
+    "project_id": "vcra-5e105",
+    "storage_bucket": "vcra-5e105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916728294033:android:cdc822e0fad257ee26ed30",
+        "android_client_info": {
+          "package_name": "com.pharaaz.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916728294033-gfujk69f2cvub3inlnd8ldvugi1ksm3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pharaaz.myapp",
+            "certificate_hash": "58fe574ac30f0d4c6154b08f10b1210300b7a96a"
+          }
+        },
+        {
+          "client_id": "916728294033-6iis7ogchh8tf8lm8q1egfvtou59ri0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcytDXl1CKjwMA1usHPbH9LYLQKOrRe8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916728294033-6iis7ogchh8tf8lm8q1egfvtou59ri0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
