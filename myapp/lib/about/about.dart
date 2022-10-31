@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/shared/bottomNavbar.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
@@ -9,6 +10,7 @@ class aboutScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      bottomNavigationBar: NavBAr(),
     );
   }
 }
