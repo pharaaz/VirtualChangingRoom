@@ -11,21 +11,21 @@ class NavBAr extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(
             FontAwesomeIcons.cartShopping,
-            size: 40,
+            size: 20,
           ),
           label: 'Produsts',
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FontAwesomeIcons.bolt,
-            size: 40,
+            FontAwesomeIcons.camera,
+            size: 20,
           ),
           label: 'About',
         ),
         BottomNavigationBarItem(
           icon: Icon(
             FontAwesomeIcons.circleUser,
-            size: 40,
+            size: 20,
           ),
           label: 'Profile',
         ),

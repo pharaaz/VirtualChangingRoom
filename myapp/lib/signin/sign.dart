@@ -16,15 +16,16 @@ class SignInScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            const FlutterLogo(
-              size: 150,
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              size: 200,
             ),
             Flexible(
               child: LoginButton(
                 icon: FontAwesomeIcons.userNinja,
                 text: 'Continue as Guest',
                 loginMethod: AuthService().anonLogin,
-                color: Colors.deepPurple,
+                color: Color.fromARGB(255, 17, 45, 128),
               ),
             )
           ],

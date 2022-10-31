@@ -46,6 +46,9 @@ dependencies:
   google_sign_in: 5.3.3
   sign_in_with_apple: 4.0.0
   crypto: 3.0.1
+  camera: ^0.8.1+7
+  video_player: ^2.1.14
+  path_provider: ^2.0.2
  
 
 dev_dependencies:
