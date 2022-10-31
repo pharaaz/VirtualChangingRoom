@@ -11,26 +11,26 @@ class NavBAr extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(
             FontAwesomeIcons.cartShopping,
-            size: 20,
+            size: 30,
           ),
           label: 'Produsts',
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FontAwesomeIcons.camera,
-            size: 20,
+            FontAwesomeIcons.personBooth,
+            size: 30,
           ),
-          label: 'About',
+          label: 'Changing Room',
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            FontAwesomeIcons.circleUser,
-            size: 20,
+            FontAwesomeIcons.personRunning,
+            size: 30,
           ),
-          label: 'Profile',
+          label: 'Exit',
         ),
       ],
-      fixedColor: Color.fromARGB(255, 15, 165, 15),
+      fixedColor: Color.fromARGB(255, 141, 94, 222),
       onTap: (int idx) {
         switch (idx) {
           case 0:

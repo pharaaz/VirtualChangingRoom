@@ -8,10 +8,10 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bout page'),
+        title: Text('Exit page'),
       ),
       body: ElevatedButton(
-          child: Text('signout'),
+          child: Text('sign out'),
           onPressed: () async {
             await AuthService().signOut();
             Navigator.of(context)

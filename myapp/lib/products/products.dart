@@ -9,13 +9,12 @@ class ProductsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          backgroundColor: Color.fromARGB(99, 4, 54, 234),
-          leading: IconButton(
-            onPressed: () {},
-            icon: Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+          backgroundColor: Color.fromARGB(255, 141, 94, 222),
+          leading: Container(
+            child: Image.asset(
+              'assets/images/head logo.png',
+              width: 20,
+              height: 20,
             ),
           ),
           title: const Text('Virtual Changing Room')),
@@ -25,6 +24,66 @@ class ProductsScreen extends StatelessWidget {
           crossAxisSpacing: 10.0,
           crossAxisCount: 2,
           children: [
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
+            Icon(
+              FontAwesomeIcons.userAstronaut,
+              color: Color.fromARGB(230, 193, 190, 193),
+              size: 40,
+            ),
             Icon(
               FontAwesomeIcons.userAstronaut,
               color: Color.fromARGB(230, 193, 190, 193),

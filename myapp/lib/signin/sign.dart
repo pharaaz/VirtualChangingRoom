@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:myapp/services/auth.dart';
@@ -11,14 +12,17 @@ class SignInScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: const EdgeInsets.all(30),
+        padding: const EdgeInsets.all(10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              size: 200,
+            Flexible(
+              child: Image.asset(
+                'assets/images/logos_white.png',
+                width: 500,
+                height: 500,
+              ),
             ),
             Flexible(
               child: LoginButton(
