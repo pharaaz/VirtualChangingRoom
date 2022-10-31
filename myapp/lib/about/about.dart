@@ -9,10 +9,13 @@ class aboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Profile'),
+      ),
       body: Center(
         child: ElevatedButton(
           child: Text('tryon'),
-          onPressed: () => Navigator.pushNamed(context, '/tryon'),
+          onPressed: () => Navigator.pushNamed(context, '/cam'),
         ),
       ),
     );

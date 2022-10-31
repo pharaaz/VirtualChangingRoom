@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:myapp/shared/bottomNavbar.dart';
 
 class TryOnScreen extends StatefulWidget {
   const TryOnScreen({super.key});
@@ -13,6 +14,7 @@ class _TryOnScreenState extends State<TryOnScreen> {
   @override
   Widget build(BuildContext context) {
     return Stack(children: [
+      AppBar(),
       Icon(
         FontAwesomeIcons.userAstronaut,
         color: Color.fromARGB(230, 193, 190, 193),

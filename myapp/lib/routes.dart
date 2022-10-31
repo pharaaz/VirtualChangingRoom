@@ -4,6 +4,7 @@ import 'package:myapp/signin/sign.dart';
 import 'package:myapp/products/products.dart';
 import 'package:myapp/home/home.dart';
 import 'package:myapp/tryon/tryon.dart';
+import 'package:myapp/cameraScreen.dart';
 
 var appRoutes = {
   '/': (context) => const HomeScreen(),
@@ -12,4 +13,5 @@ var appRoutes = {
   '/products': (context) => const ProductsScreen(),
   '/profile': (context) => const ProfileScreen(),
   '/about': (context) => const aboutScreen(),
+  '/cam': (context) => CameraScreen(),
 };

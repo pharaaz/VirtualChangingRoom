@@ -1,3 +1,4 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 // Import the firebase_core plugin
 import 'package:firebase_core/firebase_core.dart';
@@ -5,8 +6,14 @@ import 'package:myapp/routes.dart';
 import 'package:myapp/theme.dart';
 import 'package:myapp/tryon/tryon.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+List<CameraDescription> cameras = [];
+Future<void> main() async {
+  try {
+    WidgetsFlutterBinding.ensureInitialized();
+    cameras = await availableCameras();
+  } on CameraException catch (e) {
+    print('Error in fetching the cameras: $e');
+  }
   runApp(App());
 }
 
