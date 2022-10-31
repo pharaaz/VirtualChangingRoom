@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:myapp/routes.dart';
 import 'package:myapp/theme.dart';
+import 'package:myapp/tryon/tryon.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
