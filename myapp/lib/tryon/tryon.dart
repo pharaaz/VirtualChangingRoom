@@ -12,10 +12,20 @@ class TryOnScreen extends StatefulWidget {
 class _TryOnScreenState extends State<TryOnScreen> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Image.asset('assets/images/lbj23.jpeg'), // <-- SEE HERE
-      ],
-    );
+    return Stack(children: [
+      Icon(
+        FontAwesomeIcons.userAstronaut,
+        color: Color.fromARGB(230, 193, 190, 193),
+        size: 40,
+      ),
+      Positioned(
+          bottom: 250,
+          right: 50,
+          child: Row(
+            children: [
+              Image.asset('assets/images/lbj23.jpeg'), // <-- SEE HERE
+            ],
+          )),
+    ]);
   }
 }
