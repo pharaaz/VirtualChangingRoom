@@ -8,6 +8,7 @@ class ProductsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 145, 143, 143),
       appBar: AppBar(
           backgroundColor: Color.fromARGB(255, 141, 94, 222),
           leading: Container(
@@ -24,35 +25,35 @@ class ProductsScreen extends StatelessWidget {
           crossAxisSpacing: 10.0,
           crossAxisCount: 2,
           children: [
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            Image.asset(
+              'assets/products/s-removebg-preview.png',
+              width: 40,
+              height: 40,
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            Image.asset(
+              'assets/products/lbj-removebg-preview.png',
+              width: 50,
+              height: 50,
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            Image.asset(
+              'assets/products/h-removebg-preview.png',
+              width: 50,
+              height: 50,
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            Image.asset(
+              'assets/products/f-removebg-preview.png',
+              width: 50,
+              height: 50,
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            Image.asset(
+              'assets/products/d-removebg-preview.png',
+              width: 50,
+              height: 50,
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            Image.asset(
+              'assets/products/a-removebg-preview.png',
+              width: 50,
+              height: 50,
             ),
             Icon(
               FontAwesomeIcons.userAstronaut,

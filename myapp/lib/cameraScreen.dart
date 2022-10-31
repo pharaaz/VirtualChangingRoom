@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 import '../main.dart';
 
+final _controller = PageController();
+
 class CameraScreen extends StatefulWidget {
   @override
   _CameraScreenState createState() => _CameraScreenState();
@@ -92,13 +94,50 @@ class _CameraScreenState extends State<CameraScreen>
               child: Stack(
                 children: [
                   controller!.buildPreview(),
-                  Center(
-                    child: Image.asset(
-                      'assets/images/lbj23.jpeg',
-                      width: 300,
-                      height: 300,
+                  PageView(controller: _controller, children: [
+                    Center(
+                      child: Image.asset(
+                        'assets/images/lbj23.jpeg',
+                        width: 300,
+                        height: 300,
+                      ),
                     ),
-                  ),
+                    Center(
+                      child: Image.asset(
+                        'assets/images/s-bg.png',
+                        width: 300,
+                        height: 300,
+                      ),
+                    ),
+                    Center(
+                      child: Image.asset(
+                        'assets/images/hbg.png',
+                        width: 300,
+                        height: 300,
+                      ),
+                    ),
+                    Center(
+                      child: Image.asset(
+                        'assets/images/blackBGRemoved.png',
+                        width: 300,
+                        height: 300,
+                      ),
+                    ),
+                    Center(
+                      child: Image.asset(
+                        'assets/images/dbg.png',
+                        width: 300,
+                        height: 300,
+                      ),
+                    ),
+                    Center(
+                      child: Image.asset(
+                        'assets/images/f-bg.png',
+                        width: 300,
+                        height: 300,
+                      ),
+                    ),
+                  ]),
                 ],
               ),
             )

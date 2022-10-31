@@ -53,7 +53,7 @@ dependencies:
   get: ^4.1.4
   slide_to_act: ^2.0.1
   like_button: ^2.0.5
-  
+
  
 
 dev_dependencies:
@@ -82,7 +82,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/lbj23.jpeg
-    
+    - assets/products/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
