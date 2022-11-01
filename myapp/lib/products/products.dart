@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/shared/bottomNavbar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -8,7 +9,7 @@ class ProductsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 145, 143, 143),
+      backgroundColor: Colors.white,
       appBar: AppBar(
           backgroundColor: Color.fromARGB(255, 141, 94, 222),
           leading: Container(
@@ -25,35 +26,77 @@ class ProductsScreen extends StatelessWidget {
           crossAxisSpacing: 10.0,
           crossAxisCount: 2,
           children: [
-            Image.asset(
-              'assets/products/s-removebg-preview.png',
-              width: 40,
-              height: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/about'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/a-removebg-preview.png',
+                ),
+              ),
             ),
-            Image.asset(
-              'assets/products/lbj-removebg-preview.png',
-              width: 50,
-              height: 50,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/about'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/d-removebg-preview.png',
+                ),
+              ),
             ),
-            Image.asset(
-              'assets/products/h-removebg-preview.png',
-              width: 50,
-              height: 50,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/about'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/f-removebg-preview.png',
+                ),
+              ),
             ),
-            Image.asset(
-              'assets/products/f-removebg-preview.png',
-              width: 50,
-              height: 50,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/about'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/s-removebg-preview.png',
+                ),
+              ),
             ),
-            Image.asset(
-              'assets/products/d-removebg-preview.png',
-              width: 50,
-              height: 50,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/about'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/h-removebg-preview.png',
+                ),
+              ),
             ),
-            Image.asset(
-              'assets/products/a-removebg-preview.png',
-              width: 50,
-              height: 50,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/tryon'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/lbj-removebg-preview.png',
+                ),
+              ),
             ),
             Icon(
               FontAwesomeIcons.userAstronaut,
