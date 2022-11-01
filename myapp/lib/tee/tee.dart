@@ -5,22 +5,22 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/shared/bottomNavbar.dart';
 import 'package:like_button/like_button.dart';
 
-class TryOnScreen extends StatefulWidget {
-  const TryOnScreen({super.key});
+class teeScreen extends StatefulWidget {
+  const teeScreen({super.key});
 
   @override
-  State<TryOnScreen> createState() => _TryOnScreenState();
+  State<teeScreen> createState() => _teeScreen();
 }
 
-class _TryOnScreenState extends State<TryOnScreen> {
+class _teeScreen extends State<teeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 206, 192, 69),
+      backgroundColor: Color.fromARGB(79, 181, 181, 177),
       appBar: AppBar(),
       body: Column(children: [
         Image.asset(
-          'assets/images/lbj23.jpeg',
+          'assets/products/s-removebg-preview.png',
           width: 300,
           height: 300,
         ),
@@ -37,7 +37,7 @@ class _TryOnScreenState extends State<TryOnScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    "Los Angeles Lakers LeBron James #6 Icon Swingman Jersey",
+                    "ascolour MENS CLASSIC TEE - 5026",
                     style: GoogleFonts.bebasNeue(fontSize: 32),
                   ),
                   Text(

@@ -14,18 +14,27 @@ class aboutScreen extends StatelessWidget {
         title: Text('Entering the Wardrobe'),
       ),
       body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(20.0),
-          child: SlideAction(
-            borderRadius: 10,
-            innerColor: Colors.deepPurple,
-            outerColor: Colors.deepPurple[300],
-            text: 'Slide to Enter',
-            textStyle: const TextStyle(
-              color: Colors.white,
+        child: Column(
+          children: [
+            Image.asset(
+              "assets/comes/come-in-come-on-in.gif",
+              height: 350,
+              width: 350,
             ),
-            onSubmit: () => Navigator.pushNamed(context, '/cam'),
-          ),
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: SlideAction(
+                borderRadius: 10,
+                innerColor: Colors.deepPurple,
+                outerColor: Colors.deepPurple[300],
+                text: 'Slide to Enter',
+                textStyle: const TextStyle(
+                  color: Colors.white,
+                ),
+                onSubmit: () => Navigator.pushNamed(context, '/cam'),
+              ),
+            ),
+          ],
         ),
       ),
     );

@@ -7,17 +7,27 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text('Exit page'),
-        ),
-        body: Center(
-          child: ElevatedButton(
-              child: Text('sign out'),
-              onPressed: () async {
-                await AuthService().signOut();
-                Navigator.of(context)
-                    .pushNamedAndRemoveUntil('/', (route) => false);
-              }),
-        ));
+      appBar: AppBar(
+        title: Text('Exit page'),
+      ),
+      body: Column(
+        children: [
+          Image.asset(
+            "assets/comes/pokemon-pikachu.gif",
+            height: 350,
+            width: 350,
+          ),
+          Center(
+            child: ElevatedButton(
+                child: Text('sign out'),
+                onPressed: () async {
+                  await AuthService().signOut();
+                  Navigator.of(context)
+                      .pushNamedAndRemoveUntil('/', (route) => false);
+                }),
+          ),
+        ],
+      ),
+    );
   }
 }

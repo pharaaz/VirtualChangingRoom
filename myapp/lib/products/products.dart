@@ -27,7 +27,7 @@ class ProductsScreen extends StatelessWidget {
           crossAxisCount: 2,
           children: [
             InkWell(
-              onTap: () => Navigator.pushNamed(context, '/about'),
+              onTap: () => Navigator.pushNamed(context, '/blah'),
               splashColor: Colors.white10, // Splash color over image
               child: Ink.image(
                 fit: BoxFit.cover,
@@ -39,7 +39,7 @@ class ProductsScreen extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: () => Navigator.pushNamed(context, '/about'),
+              onTap: () => Navigator.pushNamed(context, '/hod'),
               splashColor: Colors.white10, // Splash color over image
               child: Ink.image(
                 fit: BoxFit.cover,
@@ -51,7 +51,7 @@ class ProductsScreen extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: () => Navigator.pushNamed(context, '/about'),
+              onTap: () => Navigator.pushNamed(context, '/grey'),
               splashColor: Colors.white10, // Splash color over image
               child: Ink.image(
                 fit: BoxFit.cover,
@@ -63,7 +63,7 @@ class ProductsScreen extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: () => Navigator.pushNamed(context, '/about'),
+              onTap: () => Navigator.pushNamed(context, '/tee'),
               splashColor: Colors.white10, // Splash color over image
               child: Ink.image(
                 fit: BoxFit.cover,
@@ -75,7 +75,7 @@ class ProductsScreen extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: () => Navigator.pushNamed(context, '/about'),
+              onTap: () => Navigator.pushNamed(context, '/pink'),
               splashColor: Colors.white10, // Splash color over image
               child: Ink.image(
                 fit: BoxFit.cover,
@@ -98,50 +98,113 @@ class ProductsScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/blah'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/a-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/hod'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/d-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/grey'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/f-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/tee'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/s-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/pink'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/h-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/tryon'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/lbj-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/tee'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/s-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/pink'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/h-removebg-preview.png',
+                ),
+              ),
             ),
-            Icon(
-              FontAwesomeIcons.userAstronaut,
-              color: Color.fromARGB(230, 193, 190, 193),
-              size: 40,
+            InkWell(
+              onTap: () => Navigator.pushNamed(context, '/tryon'),
+              splashColor: Colors.white10, // Splash color over image
+              child: Ink.image(
+                fit: BoxFit.cover,
+                width: 100,
+                height: 100,
+                image: AssetImage(
+                  'assets/products/lbj-removebg-preview.png',
+                ),
+              ),
             ),
           ]),
       bottomNavigationBar: NavBAr(),

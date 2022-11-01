@@ -5,22 +5,22 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/shared/bottomNavbar.dart';
 import 'package:like_button/like_button.dart';
 
-class TryOnScreen extends StatefulWidget {
-  const TryOnScreen({super.key});
+class greyScreen extends StatefulWidget {
+  const greyScreen({super.key});
 
   @override
-  State<TryOnScreen> createState() => _TryOnScreenState();
+  State<greyScreen> createState() => _greyScreen();
 }
 
-class _TryOnScreenState extends State<TryOnScreen> {
+class _greyScreen extends State<greyScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 206, 192, 69),
+      backgroundColor: Color.fromARGB(79, 41, 41, 40),
       appBar: AppBar(),
       body: Column(children: [
         Image.asset(
-          'assets/images/lbj23.jpeg',
+          'assets/products/f-removebg-preview.png',
           width: 300,
           height: 300,
         ),
@@ -37,7 +37,7 @@ class _TryOnScreenState extends State<TryOnScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    "Los Angeles Lakers LeBron James #6 Icon Swingman Jersey",
+                    "FEAR OF GOD ESSENTIALS BACK LOGO PULLOVER CREWNECK BLACK [SS21]",
                     style: GoogleFonts.bebasNeue(fontSize: 32),
                   ),
                   Text(
