@@ -23,12 +23,27 @@ class _TryOnScreenState extends State<TryOnScreen> {
           width: 300,
           height: 300,
         ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 25.0),
-          child: Text(
-            "Los Angeles Lakers LeBron James #6 Icon Swingman Jersey",
-            style: GoogleFonts.bebasNeue(fontSize: 32),
-          ),
+        Center(
+          child: Container(
+              width: 350,
+              height: 290,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                color: Color.fromARGB(185, 84, 83, 83),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(height: 15),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                  ),
+                  Text(
+                    "Los Angeles Lakers LeBron James #6 Icon Swingman Jersey",
+                    style: GoogleFonts.bebasNeue(fontSize: 32),
+                  ),
+                ],
+              )),
         ),
       ]),
       bottomNavigationBar: NavBAr(),
